@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Lèche">
+  <ellipse cx="12" cy="15.2" rx="5.5" ry="5.4" fill="#F43F6E"/>
+  <rect x="8.6" y="9.4" width="6.8" height="5" rx="3" fill="#F43F6E"/>
+  <path d="M12 12.6 L12 18.4" stroke="#BC1948" stroke-width="1.15" stroke-linecap="round"/>
+  <path d="M3.4 7.3 Q12 14.2 20.6 7.3 Q12 10.9 3.4 7.3 Z" fill="#FFE2EA"/>
+</svg>

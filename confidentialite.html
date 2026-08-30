@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Confidentialité — Lèche</title>
+    <meta
+      name="description"
+      content="Lèche ne collecte aucune donnée. Réglages et sites appris restent dans votre navigateur."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="theme-color" content="#230F1C" />
+  </head>
+
+  <body>
+    <header class="masthead">
+      <div class="shell masthead__inner">
+        <a class="brand" href="index.html">
+          <img src="assets/leche.svg" alt="" width="30" height="30" />
+          Lèche
+        </a>
+        <nav class="masthead__links">
+          <a href="privacy.html">English</a>
+          <a class="btn btn--small" href="LIEN_CHROME_WEB_STORE">Installer</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="shell legal">
+      <p class="eyebrow">Politique de confidentialité</p>
+      <h1>Lèche ne collecte rien.</h1>
+      <p class="maj">Dernière mise à jour : DATE_A_REMPLACER</p>
+
+      <p>
+        Lèche est une extension Chrome qui fait défiler automatiquement les catalogues
+        de boutiques en ligne. Cette page décrit ce que l'extension fait de vos données. Elle
+        se résume à une phrase : elle n'en collecte aucune.
+      </p>
+
+      <h2>Données collectées</h2>
+      <p><strong>Aucune.</strong></p>
+      <ul>
+        <li>Aucune mesure d'audience, aucune télémétrie, aucun rapport d'erreur.</li>
+        <li>
+          Aucun compte de notre côté : le déverrouillage est géré par
+          <a href="https://extensionpay.com" rel="noopener">ExtensionPay</a>.
+        </li>
+        <li>
+          Vos réglages (vitesse, pauses, langue, position de la pastille) restent dans votre
+          navigateur, via <code>chrome.storage.local</code>.
+        </li>
+        <li>
+          Les sites que vous apprenez sont enregistrés localement sous
+          <code>learned:&lt;domaine&gt;</code>. Ils contiennent un nom de domaine et des
+          sélecteurs CSS — jamais une adresse de page complète, jamais le contenu d'une page.
+        </li>
+        <li>
+          L'export de vos sites appris est une action manuelle : le contenu est copié dans le
+          presse-papier. Rien n'est téléversé. Il n'existe ni synchronisation dans le nuage, ni
+          partage entre utilisateurs.
+        </li>
+        <li>
+          L'indicateur « défilement en cours » de l'onglet actif vit dans
+          <code>chrome.storage.session</code> et disparaît à la fermeture du navigateur.
+        </li>
+      </ul>
+
+      <h2>Réseau</h2>
+      <p>
+        Les seuls échanges réseau de l'extension sont ceux qu'exige ExtensionPay pour vérifier
+        votre achat unique. Nous n'exploitons aucun serveur qui recevrait des informations de
+        navigation. Si ExtensionPay est injoignable, Lèche se déverrouille plutôt que de vous
+        bloquer : une panne de service ne doit jamais empêcher quelqu'un d'utiliser ce qu'il a
+        payé.
+      </p>
+      <p>
+        Ce site vitrine ne dépose aucun cookie, n'utilise aucun traceur et ne charge aucune
+        ressource tierce — pas même une police d'écriture distante.
+      </p>
+
+      <h2>Autorisations demandées</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Autorisation</th>
+            <th>Pourquoi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>storage</code></td>
+            <td>Conserver vos réglages et l'état de la session en cours.</td>
+          </tr>
+          <tr>
+            <td><code>scripting</code></td>
+            <td>
+              Activer l'extension dans les onglets déjà ouverts au moment de l'installation,
+              sans vous obliger à les recharger.
+            </td>
+          </tr>
+          <tr>
+            <td><code>http://*/*</code> et <code>https://*/*</code></td>
+            <td>
+              Les catalogues se trouvent sur d'innombrables boutiques ; le moteur de défilement
+              doit pouvoir s'exécuter sur la page que vous consultez. Il lit la structure de la
+              page pour y trouver le lien « page suivante », et rien d'autre.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Ce que Lèche ne fait jamais</h2>
+      <ul>
+        <li>Cliquer un bouton de paiement, de commande ou de connexion.</li>
+        <li>Remplir un formulaire, un champ de mot de passe ou un captcha.</li>
+        <li>Fermer ou contourner un bandeau de consentement.</li>
+        <li>Lire ou transmettre le contenu des pages que vous visitez.</li>
+      </ul>
+
+      <h2>Vos droits</h2>
+      <p>
+        Puisqu'aucune donnée personnelle n'est collectée ni traitée par l'éditeur, il n'y a rien
+        à consulter, rectifier ou supprimer de notre côté. Les informations stockées par
+        l'extension sont sous votre contrôle : désinstaller l'extension les efface, et le bouton
+        « Oublier ce site » supprime un site appris à tout moment.
+      </p>
+      <p>
+        Les données liées à votre paiement (adresse e-mail, statut de la licence) sont traitées
+        par ExtensionPay et Stripe. Consultez leurs politiques respectives pour ce qui les
+        concerne.
+      </p>
+
+      <h2>Modifications</h2>
+      <p>
+        Toute évolution de cette politique sera publiée sur cette page avec une nouvelle date de
+        mise à jour. Un changement qui élargirait la collecte de données ferait l'objet d'une
+        information dans l'extension elle-même.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        NOM_OU_RAISON_SOCIALE — ADRESSE_COMPLETE, CODE_POSTAL VILLE, Suisse.<br />
+        <a href="mailto:CONTACT@REMPLACER-PAR-VOTRE-DOMAINE"
+          >CONTACT@REMPLACER-PAR-VOTRE-DOMAINE</a
+        >
+      </p>
+    </main>
+
+    <footer class="pied">
+      <div class="shell pied__bas">
+        <span>© 2026 NOM_OU_RAISON_SOCIALE</span>
+        <span>
+          <a href="index.html">Accueil</a> · <a href="conditions.html">Conditions de vente</a> ·
+          <a href="privacy.html">English</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
