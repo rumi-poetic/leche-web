@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lèche — 逛店，不用动手</title>
+    <meta name="description" content="Chrome 扩展，自动滚动商品目录并自动翻页。速度可调，鼠标一动即暂停。5 瑞士法郎一次买断，终身可用。" />
+    <link rel="canonical" href="https://rumi-poetic.github.io/leche-web/zh/" />
+    <link rel="alternate" hreflang="fr" href="https://rumi-poetic.github.io/leche-web/" />
+    <link rel="alternate" hreflang="en" href="https://rumi-poetic.github.io/leche-web/en/" />
+    <link rel="alternate" hreflang="it" href="https://rumi-poetic.github.io/leche-web/it/" />
+    <link rel="alternate" hreflang="es" href="https://rumi-poetic.github.io/leche-web/es/" />
+    <link rel="alternate" hreflang="zh" href="https://rumi-poetic.github.io/leche-web/zh/" />
+    <link rel="alternate" hreflang="x-default" href="https://rumi-poetic.github.io/leche-web/" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lèche — 逛店，不用动手" />
+    <meta property="og:description" content="Chrome 扩展，自动滚动商品目录并自动翻页。速度可调，鼠标一动即暂停。5 瑞士法郎一次买断，终身可用。" />
+    <meta property="og:image" content="https://rumi-poetic.github.io/leche-web/assets/og.jpg" />
+    <meta property="og:url" content="https://rumi-poetic.github.io/leche-web/zh/" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#230F1C" />
+  </head>
+
+  <body>
+    <a class="skip" href="#contenu">跳到正文</a>
+
+    <header class="masthead">
+      <div class="shell masthead__inner">
+        <a class="brand" href="index.html">
+          <img src="../assets/leche.svg" alt="" width="30" height="30" />
+          Lèche
+        </a>
+        <nav class="masthead__links">
+          <a class="hide-small" href="#fonctionnement">工作方式</a>
+          <a class="hide-small" href="#apprentissage">顽固站点</a>
+          <a class="hide-small" href="#prix">价格</a>
+          <div class="langues" role="group" aria-label="语言"><a class="lang" href="../index.html" hreflang="fr" lang="fr" title="Français">FR</a><a class="lang" href="../en/index.html" hreflang="en" lang="en" title="English">EN</a><a class="lang" href="../it/index.html" hreflang="it" lang="it" title="Italiano">IT</a><a class="lang" href="../es/index.html" hreflang="es" lang="es" title="Español">ES</a><a aria-current="true" class="lang lang--actif" href="../zh/index.html" hreflang="zh" lang="zh" title="中文">中文</a></div>
+          <a class="btn btn--small" href="LIEN_CHROME_WEB_STORE">安装</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero">
+        <div class="shell hero__grid">
+          <div>
+            <p class="eyebrow">Chrome 扩展</p>
+            <h1>逛店，<br>不用动手。</h1>
+            <p class="lede">商品目录自动滚动，自动翻页。你只需要看着。</p>
+            <div class="hero__actions">
+              <a class="btn" href="LIEN_CHROME_WEB_STORE">为 Chrome 安装</a>
+              <a class="btn btn--ghost" href="#fonctionnement">工作方式</a>
+            </div>
+            <p class="hero__price">5 CHF 一次买断。<strong>终身可用，适用于所有站点。没有订阅。</strong></p>
+          </div>
+
+          <!-- La démonstration EST le produit : la colonne défile toute seule et
+               s'arrête au survol, exactement comme l'extension. -->
+          <div class="vitrine" aria-hidden="true">
+            <div class="vitrine__track">
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+            </div>
+            <div class="vitrine__pastille">
+              <img src="../assets/leche.svg" alt="" width="34" height="34" />
+            </div>
+            <p class="vitrine__note">把鼠标移上来：它会停下。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="fonctionnement">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">三个步骤</p>
+            <h2>你只做两个。</h2>
+          </div>
+          <div class="etapes">
+            <article class="etape">
+              <h3>安装</h3>
+              <p>屏幕右侧中间会出现一个圆形按钮。拖到你喜欢的位置，所有站点都会记住它。</p>
+            </article>
+            <article class="etape">
+              <h3>点击「开始」</h3>
+              <p>目录按你设定的速度滚动。一动鼠标就停，不动就继续。</p>
+            </article>
+            <article class="etape">
+              <h3>交给它</h3>
+              <p>翻到页面底部时，Lèche 会加载更多内容或翻到下一页。你不用再点任何东西。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="video">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">三十秒</p>
+            <h2>看它怎么工作。</h2>
+          </div>
+
+          <!-- REMPLACER PAR LA VIDÉO. Deux possibilités :
+               YouTube → <iframe src="https://www.youtube-nocookie.com/embed/ID"
+                           title="Lèche" allowfullscreen loading="lazy"></iframe>
+               Fichier → <video src="../assets/demo.mp4" poster="../assets/demo-poster.jpg"
+                           controls playsinline preload="none"></video>
+               Un fichier hébergé ici préserve la promesse « aucune requête tierce ».
+               Ce bloc est identique dans les cinq langues : modifier build.py puis
+               relancer `python3 build.py`. -->
+          <div class="video">
+            <p>视频位置 — 见文件中的注释 build.py</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="captures">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">实际使用</p>
+            <h2>一个面板，一个圆钮，没别的。</h2>
+          </div>
+
+          <div class="capture">
+            <div class="capture__texte">
+              <h3>面板</h3>
+              <p>速度每秒 15 到 400 像素，页面底部停留时间，鼠标停止后的恢复延迟。面板会显示当前页面剩余的时间。</p>
+              <p>所有设置在各个站点之间通用。设一次，以后不用再管。</p>
+            </div>
+            <div>
+              <div class="capture__cadre">
+                <img src="../assets/capture-panneau.jpg" alt="Lèche 面板在服装目录页面上打开，显示该页剩余时间。"
+                     width="1100" height="834" loading="lazy" />
+              </div>
+              <p class="capture__legende">滚动过程中的面板。</p>
+            </div>
+          </div>
+
+          <div class="capture capture--inverse">
+            <div class="capture__texte">
+              <h3>圆钮</h3>
+              <p>收起后，Lèche 只是一个圆形按钮。抓住它，拖到任何你想要的位置。它默认停在屏幕中间高度，避开 Cookie 提示条。</p>
+            </div>
+            <div>
+              <div class="capture__cadre">
+                <img src="../assets/capture-pastille.jpg" alt="Lèche 的圆形按钮停靠在目录页面的右侧边缘。"
+                     width="1100" height="834" loading="lazy" />
+              </div>
+              <p class="capture__legende">收起、可拖动、位置被记住。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="apprentissage">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">真正管用的功能</p>
+            <h2>遇到顽固站点？两次点击教会它。</h2>
+            <p>没有两家商店的翻页方式相同。绝大多数站点 Lèche 能自己识别 —— 其余的，你教它。</p>
+          </div>
+
+          <div class="capture">
+            <div class="capture__texte">
+              <h3>你指给它看，它记住</h3>
+              <p>在面板中点击<em>学习此站点</em>，然后点击该站点自己的「下一页」按钮。就这样。这次学习点击绝不会传给商店，你不会误触发任何操作。</p>
+              <p>保存之前，<em>测试</em>会高亮所选元素并显示它指向哪里。此后每次访问该站点都会被识别，你还可以导出已学习的站点，带到另一台电脑上。</p>
+              <p>在结账流程和登录页面上，Lèche 会自行停止。它绝不点击付款按钮。</p>
+            </div>
+            <div>
+              <div class="capture__cadre">
+                <img src="../assets/capture-apprentissage.jpg" alt="学习模式：顶部提示点击站点的下一页按钮，弹窗显示所选的选择器以及测试、保存、取消按钮。"
+                     width="1100" height="834" loading="lazy" />
+              </div>
+              <p class="capture__legende">学习模式：所选的选择器，保存前可以测试。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reglages">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">其余的一切</p>
+            <h2>设一次，之后就忘了它。</h2>
+          </div>
+          <div class="reglages">
+            <div class="reglage">
+              <h3>速度</h3>
+              <p>每秒 15 到 400 像素。可用 Alt 加方向键随时调整。</p>
+            </div>
+            <div class="reglage">
+              <h3>页面底部停留</h3>
+              <p>0 到 15 秒后再继续，够你看清一件商品。</p>
+            </div>
+            <div class="reglage">
+              <h3>鼠标暂停</h3>
+              <p>鼠标一动就停止滚动，静止后按你设定的延迟继续。</p>
+            </div>
+            <div class="reglage">
+              <h3>键盘快捷键</h3>
+              <p>空格暂停，Esc 停止，Alt + Shift + L 随处启动。</p>
+            </div>
+            <div class="reglage">
+              <h3>无限滚动与「加载更多」</h3>
+              <p>自动加长的页面和加载按钮都已处理。</p>
+            </div>
+            <div class="reglage">
+              <h3>五种语言</h3>
+              <p>法语、英语、葡萄牙语、西班牙语、中文。默认跟随浏览器。</p>
+            </div>
+            <div class="reglage">
+              <h3>圆钮可拖动</h3>
+              <p>放在屏幕边缘任何位置。该位置对所有站点生效。</p>
+            </div>
+            <div class="reglage">
+              <h3>不收集任何数据</h3>
+              <p>没有分析统计，没有遥测，没有任何服务器接收你的浏览记录。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prix">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">只有一个价格</p>
+            <h2>付一次，就结束了。</h2>
+          </div>
+          <div class="prix">
+            <div>
+              <p class="prix__montant">5 <span>CHF</span></p>
+              <ul>
+                <li>一次性付款，终身可用，适用于所有站点</li>
+                <li>没有订阅，没有续费</li>
+                <li>没有广告，不收集数据</li>
+                <li>包含后续更新</li>
+              </ul>
+            </div>
+            <a class="btn" href="LIEN_CHROME_WEB_STORE">为 Chrome 安装</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">常见问题</p>
+            <h2>大家问得最多的。</h2>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>支持哪些浏览器？</summary>
+              <p>目前是 Chrome。其他浏览器尚未正式支持。</p>
+            </details>
+            <details>
+              <summary>在哪些站点上可用？</summary>
+              <p>绝大多数网店。无限滚动和「加载更多」按钮原生支持，常规翻页会自动识别。对于做法不同的站点，学习模式两次点击即可永久解决。</p>
+            </details>
+            <details>
+              <summary>我的数据怎么办？</summary>
+              <p>不收集任何数据，不发送任何数据。你的设置和已学习的站点都留在浏览器里。唯一的网络通信是付款服务核验你的许可。<a href="privacy.html">阅读隐私政策</a>。</p>
+            </details>
+            <details>
+              <summary>它会替我买东西吗？</summary>
+              <p>不会。在结账、购物车和登录页面上 Lèche 会停止，并拒绝点击任何标签看起来像付款的按钮。学习模式的点击也绝不会传给站点。</p>
+            </details>
+            <details>
+              <summary>换电脑要重新付费吗？</summary>
+              <p>不用。许可绑定的是你的电子邮箱，不是这台机器。你也可以导出已学习的站点，在别处导入。</p>
+            </details>
+            <details>
+              <summary>可以退款吗？</summary>
+              <p>可以，14 天内无需理由。请写信至 <a href="mailto:lindabeji2@gmail.com">lindabeji2@gmail.com</a>。详见<a href="terms.html">销售条款</a>。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pied">
+      <div class="shell">
+        <div class="pied__grid">
+          <div>
+            <a class="brand" href="index.html">
+              <img src="../assets/leche.svg" alt="" width="30" height="30" />
+              Lèche
+            </a>
+            <p class="pied__accroche">逛店，不用动手。一个 Chrome 扩展。</p>
+          </div>
+          <div>
+            <h3>产品</h3>
+            <ul>
+              <li><a href="index.html#fonctionnement">工作方式</a></li>
+              <li><a href="index.html#apprentissage">顽固站点</a></li>
+              <li><a href="index.html#prix">价格</a></li>
+              <li><a href="LIEN_CHROME_WEB_STORE">Chrome 应用商店</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>法律信息</h3>
+            <ul>
+              <li><a href="privacy.html">隐私政策</a></li>
+              <li><a href="terms.html">销售条款</a></li>
+              <li><a href="support.html">支持</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>发布者</h3>
+            <ul>
+              <li>Linda Beji</li>
+              <li>Chemin près du marguiller 24</li>
+              <li>1273 Arzier-le-Muids</li>
+              <li><a href="mailto:lindabeji2@gmail.com">lindabeji2@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pied__bas">
+          <span>© 2026 Linda Beji</span>
+          <span>本站不使用 Cookie，不使用追踪器，不向第三方发出任何请求。</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

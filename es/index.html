@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lèche — mirar escaparates sin mover un dedo</title>
+    <meta name="description" content="Extensión de Chrome que desplaza los catálogos sola y pasa a la página siguiente. Velocidad ajustable, pausa en cuanto mueves el ratón. 5 CHF una vez, para siempre." />
+    <link rel="canonical" href="https://rumi-poetic.github.io/leche-web/es/" />
+    <link rel="alternate" hreflang="fr" href="https://rumi-poetic.github.io/leche-web/" />
+    <link rel="alternate" hreflang="en" href="https://rumi-poetic.github.io/leche-web/en/" />
+    <link rel="alternate" hreflang="it" href="https://rumi-poetic.github.io/leche-web/it/" />
+    <link rel="alternate" hreflang="es" href="https://rumi-poetic.github.io/leche-web/es/" />
+    <link rel="alternate" hreflang="zh" href="https://rumi-poetic.github.io/leche-web/zh/" />
+    <link rel="alternate" hreflang="x-default" href="https://rumi-poetic.github.io/leche-web/" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lèche — mirar escaparates sin mover un dedo" />
+    <meta property="og:description" content="Extensión de Chrome que desplaza los catálogos sola y pasa a la página siguiente. Velocidad ajustable, pausa en cuanto mueves el ratón. 5 CHF una vez, para siempre." />
+    <meta property="og:image" content="https://rumi-poetic.github.io/leche-web/assets/og.jpg" />
+    <meta property="og:url" content="https://rumi-poetic.github.io/leche-web/es/" />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#230F1C" />
+  </head>
+
+  <body>
+    <a class="skip" href="#contenu">Ir al contenido</a>
+
+    <header class="masthead">
+      <div class="shell masthead__inner">
+        <a class="brand" href="index.html">
+          <img src="../assets/leche.svg" alt="" width="30" height="30" />
+          Lèche
+        </a>
+        <nav class="masthead__links">
+          <a class="hide-small" href="#fonctionnement">Cómo funciona</a>
+          <a class="hide-small" href="#apprentissage">Sitios difíciles</a>
+          <a class="hide-small" href="#prix">Precio</a>
+          <div class="langues" role="group" aria-label="Idioma"><a class="lang" href="../index.html" hreflang="fr" lang="fr" title="Français">FR</a><a class="lang" href="../en/index.html" hreflang="en" lang="en" title="English">EN</a><a class="lang" href="../it/index.html" hreflang="it" lang="it" title="Italiano">IT</a><a aria-current="true" class="lang lang--actif" href="../es/index.html" hreflang="es" lang="es" title="Español">ES</a><a class="lang" href="../zh/index.html" hreflang="zh" lang="zh" title="中文">中文</a></div>
+          <a class="btn btn--small" href="LIEN_CHROME_WEB_STORE">Instalar</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero">
+        <div class="shell hero__grid">
+          <div>
+            <p class="eyebrow">Extensión de Chrome</p>
+            <h1>Mirar escaparates<br>sin mover un dedo.</h1>
+            <p class="lede">Los catálogos se desplazan solos y pasan a la página siguiente. Tú solo miras.</p>
+            <div class="hero__actions">
+              <a class="btn" href="LIEN_CHROME_WEB_STORE">Instalar para Chrome</a>
+              <a class="btn btn--ghost" href="#fonctionnement">Cómo funciona</a>
+            </div>
+            <p class="hero__price">5 CHF una vez. <strong>Para siempre, en todos los sitios. Sin suscripción.</strong></p>
+          </div>
+
+          <!-- La démonstration EST le produit : la colonne défile toute seule et
+               s'arrête au survol, exactement comme l'extension. -->
+          <div class="vitrine" aria-hidden="true">
+            <div class="vitrine__track">
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+              <div class="article"><div class="article__visuel"></div><div class="article__nom"></div><div class="article__prix"></div></div>
+            </div>
+            <div class="vitrine__pastille">
+              <img src="../assets/leche.svg" alt="" width="34" height="34" />
+            </div>
+            <p class="vitrine__note">Pasa el ratón: se detiene.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="fonctionnement">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">Tres gestos</p>
+            <h2>Tú solo haces dos.</h2>
+          </div>
+          <div class="etapes">
+            <article class="etape">
+              <h3>Instala</h3>
+              <p>Aparece un botón redondo en el borde derecho de la pantalla, a media altura. Arrástralo donde quieras: la posición se recuerda en todos los sitios.</p>
+            </article>
+            <article class="etape">
+              <h3>Pulsa Iniciar</h3>
+              <p>El catálogo se desplaza a la velocidad que hayas elegido. Mueve el ratón y se detiene. Deja de moverlo y sigue.</p>
+            </article>
+            <article class="etape">
+              <h3>Déjalo trabajar</h3>
+              <p>Al final de la página, Lèche carga más o pasa a la siguiente. Ya no tienes nada que pulsar.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="video">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">Treinta segundos</p>
+            <h2>Míralo funcionar.</h2>
+          </div>
+
+          <!-- REMPLACER PAR LA VIDÉO. Deux possibilités :
+               YouTube → <iframe src="https://www.youtube-nocookie.com/embed/ID"
+                           title="Lèche" allowfullscreen loading="lazy"></iframe>
+               Fichier → <video src="../assets/demo.mp4" poster="../assets/demo-poster.jpg"
+                           controls playsinline preload="none"></video>
+               Un fichier hébergé ici préserve la promesse « aucune requête tierce ».
+               Ce bloc est identique dans les cinq langues : modifier build.py puis
+               relancer `python3 build.py`. -->
+          <div class="video">
+            <p>Espacio para el vídeo — mira el comentario en el archivo build.py</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="captures">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">En uso</p>
+            <h2>Un panel, un botón, nada más.</h2>
+          </div>
+
+          <div class="capture">
+            <div class="capture__texte">
+              <h3>El panel</h3>
+              <p>Velocidad de 15 a 400 píxeles por segundo, pausa al final de la página, retardo antes de reanudar tras el ratón. El panel indica el tiempo que queda en la página.</p>
+              <p>Todo se recuerda de un sitio a otro. Lo ajustas una vez y te olvidas.</p>
+            </div>
+            <div>
+              <div class="capture__cadre">
+                <img src="../assets/capture-panneau.jpg" alt="El panel de Lèche abierto sobre un catálogo de ropa, mostrando el tiempo restante en la página."
+                     width="1100" height="834" loading="lazy" />
+              </div>
+              <p class="capture__legende">El panel durante el desplazamiento.</p>
+            </div>
+          </div>
+
+          <div class="capture capture--inverse">
+            <div class="capture__texte">
+              <h3>El botón</h3>
+              <p>Plegada, Lèche es solo un botón redondo. Agárralo y arrástralo donde quieras. Se coloca a media altura, lejos de los avisos de cookies.</p>
+            </div>
+            <div>
+              <div class="capture__cadre">
+                <img src="../assets/capture-pastille.jpg" alt="El botón redondo de Lèche apoyado en el borde derecho de una página de catálogo."
+                     width="1100" height="834" loading="lazy" />
+              </div>
+              <p class="capture__legende">Plegado, arrastrable, recordado.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="apprentissage">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">La función que lo cambia todo</p>
+            <h2>¿Un sitio que se resiste? Enséñaselo en dos clics.</h2>
+            <p>Ninguna tienda pagina como la de al lado. Lèche reconoce sola la gran mayoría de los sitios — y para el resto, tú se lo muestras.</p>
+          </div>
+
+          <div class="capture">
+            <div class="capture__texte">
+              <h3>Tú señalas, ella recuerda</h3>
+              <p>Pulsa <em>Aprender este sitio</em> en el panel y luego el botón «página siguiente» del sitio. Ya está. El clic de aprendizaje nunca llega a la tienda: no corres el riesgo de activar nada.</p>
+              <p>Antes de guardar, <em>Probar</em> resalta el elemento elegido y muestra adónde lleva. A partir de ahí el sitio se reconoce en cada visita, y puedes exportar tus sitios aprendidos para llevarlos a otro ordenador.</p>
+              <p>Lèche se detiene sola en los procesos de compra y en las páginas de inicio de sesión. Nunca pulsa un botón de pago.</p>
+            </div>
+            <div>
+              <div class="capture__cadre">
+                <img src="../assets/capture-apprentissage.jpg" alt="Modo aprendizaje: un aviso invita a pulsar el botón de página siguiente del sitio, y una ventana muestra el selector elegido con los botones Probar, Guardar y Cancelar."
+                     width="1100" height="834" loading="lazy" />
+              </div>
+              <p class="capture__legende">Modo aprendizaje: el selector elegido, comprobable antes de guardar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reglages">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">Todo lo demás</p>
+            <h2>Ajustado una vez, olvidado después.</h2>
+          </div>
+          <div class="reglages">
+            <div class="reglage">
+              <h3>Velocidad</h3>
+              <p>De 15 a 400 px/s. Ajustable sobre la marcha con Alt y las flechas.</p>
+            </div>
+            <div class="reglage">
+              <h3>Pausa al final de página</h3>
+              <p>De 0 a 15 segundos antes de continuar, el tiempo de fijarse en un artículo.</p>
+            </div>
+            <div class="reglage">
+              <h3>Pausa con el ratón</h3>
+              <p>El desplazamiento se detiene en cuanto mueves el ratón y sigue tras el retardo elegido.</p>
+            </div>
+            <div class="reglage">
+              <h3>Atajos de teclado</h3>
+              <p>Espacio pausa, Escape detiene, Alt + Mayús + L inicia desde cualquier sitio.</p>
+            </div>
+            <div class="reglage">
+              <h3>Scroll infinito y «Ver más»</h3>
+              <p>Las páginas que se alargan solas y los botones de carga están contemplados.</p>
+            </div>
+            <div class="reglage">
+              <h3>Cinco idiomas</h3>
+              <p>Francés, inglés, portugués, español, chino. Por defecto, el del navegador.</p>
+            </div>
+            <div class="reglage">
+              <h3>Botón arrastrable</h3>
+              <p>Colócalo donde quieras en el borde de la pantalla. La posición vale para todos los sitios.</p>
+            </div>
+            <div class="reglage">
+              <h3>Ningún dato recopilado</h3>
+              <p>Sin analíticas, sin telemetría, sin ningún servidor que reciba tu navegación.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="prix">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">Un solo precio</p>
+            <h2>Pagas una vez. Se acabó.</h2>
+          </div>
+          <div class="prix">
+            <div>
+              <p class="prix__montant">5 <span>CHF</span></p>
+              <ul>
+                <li>Pago único, para siempre, en todos los sitios</li>
+                <li>Sin suscripción, sin renovación</li>
+                <li>Sin publicidad, sin recopilación de datos</li>
+                <li>Actualizaciones incluidas</li>
+              </ul>
+            </div>
+            <a class="btn" href="LIEN_CHROME_WEB_STORE">Instalar para Chrome</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="shell">
+          <div class="section__head">
+            <p class="eyebrow">Preguntas</p>
+            <h2>Lo que nos preguntan.</h2>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>¿En qué navegadores?</summary>
+              <p>Chrome, por ahora. Los demás navegadores aún no tienen soporte oficial.</p>
+            </details>
+            <details>
+              <summary>¿En qué sitios funciona?</summary>
+              <p>En la gran mayoría de las tiendas. El scroll infinito y los botones «Ver más» se gestionan de forma nativa. La paginación clásica se detecta automáticamente. Para los sitios que hacen otra cosa, el modo aprendizaje lo resuelve en dos clics, para siempre.</p>
+            </details>
+            <details>
+              <summary>¿Y mis datos?</summary>
+              <p>No se recopila nada, no se envía nada. Tus ajustes y tus sitios aprendidos se quedan en tu navegador. El único intercambio de red es el del servicio de pago al comprobar tu licencia. <a href="privacy.html">Leer la política de privacidad</a>.</p>
+            </details>
+            <details>
+              <summary>¿Puede comprar algo en mi lugar?</summary>
+              <p>No. Lèche se detiene en las páginas de compra, carrito e inicio de sesión, y se niega a pulsar cualquier botón cuya etiqueta sugiera un pago. El clic del modo aprendizaje nunca llega al sitio.</p>
+            </details>
+            <details>
+              <summary>Si cambio de ordenador, ¿vuelvo a pagar?</summary>
+              <p>No. Tu licencia está ligada a tu correo electrónico, no a la máquina. También puedes exportar tus sitios aprendidos e importarlos en otro sitio.</p>
+            </details>
+            <details>
+              <summary>¿Hay reembolso?</summary>
+              <p>Sí, 14 días, sin justificación. Escribe a <a href="mailto:lindabeji2@gmail.com">lindabeji2@gmail.com</a>. Consulta las <a href="terms.html">condiciones de venta</a>.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pied">
+      <div class="shell">
+        <div class="pied__grid">
+          <div>
+            <a class="brand" href="index.html">
+              <img src="../assets/leche.svg" alt="" width="30" height="30" />
+              Lèche
+            </a>
+            <p class="pied__accroche">Mirar escaparates sin mover un dedo. Extensión para Chrome.</p>
+          </div>
+          <div>
+            <h3>Producto</h3>
+            <ul>
+              <li><a href="index.html#fonctionnement">Cómo funciona</a></li>
+              <li><a href="index.html#apprentissage">Sitios difíciles</a></li>
+              <li><a href="index.html#prix">Precio</a></li>
+              <li><a href="LIEN_CHROME_WEB_STORE">Chrome Web Store</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="privacy.html">Privacidad</a></li>
+              <li><a href="terms.html">Condiciones de venta</a></li>
+              <li><a href="support.html">Soporte</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Editor</h3>
+            <ul>
+              <li>Linda Beji</li>
+              <li>Chemin près du marguiller 24</li>
+              <li>1273 Arzier-le-Muids</li>
+              <li><a href="mailto:lindabeji2@gmail.com">lindabeji2@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pied__bas">
+          <span>© 2026 Linda Beji</span>
+          <span>Sin cookies, sin rastreadores, sin peticiones a terceros en este sitio.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

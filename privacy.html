@@ -1,19 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Privacy policy — Lèche</title>
-    <meta
-      name="description"
-      content="Lèche collects no data. Settings and learned sites stay in your browser."
-    />
+    <title>Confidentialité — Lèche</title>
+    <meta name="description" content="Lèche ne collecte aucune donnée. Réglages et sites appris restent dans votre navigateur." />
+    <link rel="canonical" href="https://rumi-poetic.github.io/leche-web/privacy.html" />
+    <link rel="alternate" hreflang="fr" href="https://rumi-poetic.github.io/leche-web/privacy.html" />
+    <link rel="alternate" hreflang="en" href="https://rumi-poetic.github.io/leche-web/en/privacy.html" />
+    <link rel="alternate" hreflang="it" href="https://rumi-poetic.github.io/leche-web/it/privacy.html" />
+    <link rel="alternate" hreflang="es" href="https://rumi-poetic.github.io/leche-web/es/privacy.html" />
+    <link rel="alternate" hreflang="zh" href="https://rumi-poetic.github.io/leche-web/zh/privacy.html" />
+    <link rel="alternate" hreflang="x-default" href="https://rumi-poetic.github.io/leche-web/privacy.html" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Confidentialité — Lèche" />
+    <meta property="og:description" content="Lèche ne collecte aucune donnée. Réglages et sites appris restent dans votre navigateur." />
+    <meta property="og:image" content="https://rumi-poetic.github.io/leche-web/assets/og.jpg" />
+    <meta property="og:url" content="https://rumi-poetic.github.io/leche-web/privacy.html" />
+    <meta property="og:locale" content="fr_CH" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#230F1C" />
   </head>
 
   <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+
     <header class="masthead">
       <div class="shell masthead__inner">
         <a class="brand" href="index.html">
@@ -21,135 +34,117 @@
           Lèche
         </a>
         <nav class="masthead__links">
-          <a href="confidentialite.html">Français</a>
-          <a class="btn btn--small" href="LIEN_CHROME_WEB_STORE">Install</a>
+          <div class="langues" role="group" aria-label="Langue"><a aria-current="true" class="lang lang--actif" href="privacy.html" hreflang="fr" lang="fr" title="Français">FR</a><a class="lang" href="en/privacy.html" hreflang="en" lang="en" title="English">EN</a><a class="lang" href="it/privacy.html" hreflang="it" lang="it" title="Italiano">IT</a><a class="lang" href="es/privacy.html" hreflang="es" lang="es" title="Español">ES</a><a class="lang" href="zh/privacy.html" hreflang="zh" lang="zh" title="中文">中文</a></div>
+          <a class="btn btn--small" href="LIEN_CHROME_WEB_STORE">Installer</a>
         </nav>
       </div>
     </header>
 
-    <main class="shell legal">
-      <p class="eyebrow">Privacy policy</p>
-      <h1>Lèche collects nothing.</h1>
-      <p class="maj">Last updated: DATE_A_REMPLACER</p>
+    <main class="shell legal" id="contenu">
+      <p class="eyebrow">Politique de confidentialité</p>
+      <h1>Lèche ne collecte rien.</h1>
+      <p class="maj">Dernière mise à jour : 2026-09-02</p>
 
-      <p>
-        Lèche is a Chrome extension that scrolls online shop catalogues automatically.
-        This page describes what the extension does with your data. It comes down to one
-        sentence: it collects none.
-      </p>
+      <p>Lèche est une extension Chrome qui fait défiler automatiquement les catalogues de boutiques en ligne. Cette page décrit ce que l'extension fait de vos données. Elle se résume à une phrase : elle n'en collecte aucune.</p>
 
-      <h2>Data collected</h2>
-      <p><strong>None.</strong></p>
-      <ul>
-        <li>No analytics, no telemetry, no crash reports.</li>
-        <li>
-          No account on our side: unlocking is handled by
-          <a href="https://extensionpay.com" rel="noopener">ExtensionPay</a>.
-        </li>
-        <li>
-          Your settings (speed, pauses, language, pill position) stay in your browser via
-          <code>chrome.storage.local</code>.
-        </li>
-        <li>
-          Learned pagination recipes are stored locally under
-          <code>learned:&lt;host&gt;</code>. They contain a hostname and CSS selectors — never a
-          full page URL, never page content.
-        </li>
-        <li>
-          Exporting learned sites is a manual action: the data is copied to your clipboard.
-          Nothing is uploaded. There is no cloud sync and no community sharing.
-        </li>
-        <li>
-          The "running" flag for the active tab lives in <code>chrome.storage.session</code> and
-          disappears when the browser closes.
-        </li>
-      </ul>
-
-      <h2>Network</h2>
-      <p>
-        The only network calls the extension makes are those required by ExtensionPay to verify
-        a one-time purchase. We operate no backend that receives browsing information. If
-        ExtensionPay is unreachable, Lèche unlocks itself rather than blocking you: a service
-        outage must never stop someone from using what they paid for.
-      </p>
-      <p>
-        This website sets no cookies, uses no trackers, and loads no third-party resources — not
-        even a remote font.
-      </p>
-
-      <h2>Permissions requested</h2>
+      <h2>Catégories de données, finalité, partage, conservation</h2>
       <table>
         <thead>
-          <tr>
-            <th>Permission</th>
-            <th>Why</th>
-          </tr>
+          <tr><th>Donnée</th><th>Finalité</th><th>Partagée avec</th><th>Conservation</th></tr>
         </thead>
         <tbody>
-          <tr>
-            <td><code>storage</code></td>
-            <td>Save your settings and the current session state.</td>
-          </tr>
-          <tr>
-            <td><code>scripting</code></td>
-            <td>
-              Activate the extension in tabs that were already open when it was installed, so you
-              do not have to reload them.
-            </td>
-          </tr>
-          <tr>
-            <td><code>http://*/*</code> and <code>https://*/*</code></td>
-            <td>
-              Catalogues live on countless shops; the scroll engine must run on the page you are
-              browsing. It reads the page structure to find the "next page" link, and nothing
-              else.
-            </td>
-          </tr>
+          <tr><td>Réglages (vitesse, pauses, langue, position de la pastille)</td><td>Retrouver votre configuration d'une page à l'autre</td><td>Personne — reste dans le navigateur</td><td>Jusqu'à la désinstallation</td></tr>
+          <tr><td>Sites appris (nom de domaine et sélecteurs CSS)</td><td>Reconnaître la pagination d'un site que vous avez montré</td><td>Personne — reste dans le navigateur</td><td>Jusqu'à « Oublier ce site » ou la désinstallation</td></tr>
+          <tr><td>Indicateur « défilement en cours »</td><td>Reprendre le défilement après un changement de page</td><td>Personne — reste dans le navigateur</td><td>Fermeture du navigateur</td></tr>
+          <tr><td>Adresse e-mail et données de paiement</td><td>Traiter l'achat unique et vérifier votre licence</td><td>ExtensionPay et Stripe, sous-traitants du paiement</td><td>Selon leurs politiques respectives</td></tr>
         </tbody>
       </table>
 
-      <h2>What Lèche never does</h2>
+      <h2>Ce que l'extension ne collecte pas</h2>
       <ul>
-        <li>Click a payment, checkout or sign-in button.</li>
-        <li>Fill in a form, a password field or a captcha.</li>
-        <li>Dismiss or bypass a consent banner.</li>
-        <li>Read or transmit the content of the pages you visit.</li>
+        <li>Aucune mesure d'audience, aucune télémétrie, aucun rapport d'erreur.</li>
+        <li>Aucun historique de navigation, aucune adresse de page visitée.</li>
+        <li>Aucun contenu de page : ni texte, ni image, ni prix.</li>
+        <li>Aucun compte de notre côté, aucune base de données côté éditeur.</li>
+        <li>L'export de vos sites appris est manuel et passe par le presse-papier. Rien n'est téléversé, il n'existe ni synchronisation dans le nuage, ni partage entre utilisateurs.</li>
       </ul>
 
-      <h2>Your rights</h2>
-      <p>
-        Since no personal data is collected or processed by the publisher, there is nothing on
-        our side to access, correct or delete. Everything the extension stores is under your
-        control: uninstalling it erases that data, and the "Forget this site" button removes a
-        learned site at any time.
-      </p>
-      <p>
-        Data related to your payment (email address, licence status) is processed by
-        ExtensionPay and Stripe. See their respective policies for that part.
-      </p>
+      <h2>Réseau</h2>
+      <p>Les seuls échanges réseau de l'extension sont ceux qu'exige ExtensionPay pour vérifier votre achat unique. Nous n'exploitons aucun serveur qui recevrait des informations de navigation. Si ExtensionPay est injoignable, Lèche se déverrouille plutôt que de vous bloquer : une panne de service ne doit jamais empêcher quelqu'un d'utiliser ce qu'il a payé.</p>
+      <p>Ce site ne dépose aucun cookie, n'utilise aucun traceur et ne charge aucune ressource tierce — pas même une police d'écriture distante.</p>
 
-      <h2>Changes</h2>
-      <p>
-        Any change to this policy will be published on this page with a new update date. A
-        change that widened data collection would also be announced inside the extension itself.
-      </p>
+      <h2>Autorisations demandées</h2>
+      <table>
+        <thead>
+          <tr><th>Autorisation</th><th>Pourquoi</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code>storage</code></td><td>Conserver vos réglages et l'état de la session en cours.</td></tr>
+          <tr><td><code>scripting</code></td><td>Activer l'extension dans les onglets déjà ouverts au moment de l'installation, sans vous obliger à les recharger.</td></tr>
+          <tr><td><code>http://*/*</code>, <code>https://*/*</code></td><td>Les catalogues se trouvent sur d'innombrables boutiques ; le moteur de défilement doit pouvoir s'exécuter sur la page que vous consultez. Il lit la structure de la page pour y trouver le lien « page suivante », et rien d'autre.</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Ce que Lèche ne fait jamais</h2>
+      <ul>
+        <li>Cliquer un bouton de paiement, de commande ou de connexion.</li>
+        <li>Remplir un formulaire, un champ de mot de passe ou un captcha.</li>
+        <li>Fermer ou contourner un bandeau de consentement.</li>
+        <li>Lire ou transmettre le contenu des pages que vous visitez.</li>
+      </ul>
+
+      <h2>Vos droits</h2>
+      <p>Puisque l'éditeur ne collecte ni ne traite aucune donnée personnelle, il n'y a rien à consulter, rectifier ou supprimer de notre côté. Ce que l'extension stocke est sous votre contrôle : la désinstaller efface tout, et le bouton « Oublier ce site » supprime un site appris à tout moment.</p>
+      <p>Les données liées à votre paiement sont traitées par ExtensionPay et Stripe. Consultez leurs politiques pour ce qui les concerne.</p>
+
+      <h2>Modifications</h2>
+      <p>Toute évolution de cette politique sera publiée sur cette page avec une nouvelle date de mise à jour. Un changement qui élargirait la collecte de données ferait l'objet d'une information dans l'extension elle-même.</p>
 
       <h2>Contact</h2>
-      <p>
-        NOM_OU_RAISON_SOCIALE — ADRESSE_COMPLETE, CODE_POSTAL VILLE, Switzerland.<br />
-        <a href="mailto:CONTACT@REMPLACER-PAR-VOTRE-DOMAINE"
-          >CONTACT@REMPLACER-PAR-VOTRE-DOMAINE</a
-        >
-      </p>
+      <p>Linda Beji<br />Chemin près du marguiller 24<br />1273 Arzier-le-Muids, Suisse<br /><a href="mailto:lindabeji2@gmail.com">lindabeji2@gmail.com</a></p>
     </main>
 
     <footer class="pied">
-      <div class="shell pied__bas">
-        <span>© 2026 NOM_OU_RAISON_SOCIALE</span>
-        <span>
-          <a href="index.html">Home</a> · <a href="conditions.html">Terms</a> ·
-          <a href="confidentialite.html">Français</a>
-        </span>
+      <div class="shell">
+        <div class="pied__grid">
+          <div>
+            <a class="brand" href="index.html">
+              <img src="assets/leche.svg" alt="" width="30" height="30" />
+              Lèche
+            </a>
+            <p class="pied__accroche">Le lèche-vitrine sans les mains. Extension pour Chrome.</p>
+          </div>
+          <div>
+            <h3>Produit</h3>
+            <ul>
+              <li><a href="index.html#fonctionnement">Fonctionnement</a></li>
+              <li><a href="index.html#apprentissage">Sites récalcitrants</a></li>
+              <li><a href="index.html#prix">Prix</a></li>
+              <li><a href="LIEN_CHROME_WEB_STORE">Chrome Web Store</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Légal</h3>
+            <ul>
+              <li><a href="privacy.html">Confidentialité</a></li>
+              <li><a href="terms.html">Conditions de vente</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Éditeur</h3>
+            <ul>
+              <li>Linda Beji</li>
+              <li>Chemin près du marguiller 24</li>
+              <li>1273 Arzier-le-Muids</li>
+              <li><a href="mailto:lindabeji2@gmail.com">lindabeji2@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pied__bas">
+          <span>© 2026 Linda Beji</span>
+          <span>Aucun cookie, aucun traceur, aucune requête tierce sur ce site.</span>
+        </div>
       </div>
     </footer>
   </body>
