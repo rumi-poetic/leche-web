@@ -5,7 +5,7 @@ Site vitrine de **Lèche**, l'extension Chrome qui fait défiler les catalogues 
 Dépôt **public** parce que GitHub Pages ne publie que depuis un dépôt public sur le plan
 gratuit. Le code de l'extension reste dans son dépôt privé.
 
-Cinq langues : français, anglais, italien, espagnol, chinois. Quatre pages par langue.
+Cinq langues : français, anglais, portugais, espagnol, chinois. Quatre pages par langue.
 
 ---
 
@@ -122,7 +122,7 @@ leche-web/
 ├── support.html
 ├── confidentialite.html    redirection vers privacy.html (ancienne adresse)
 ├── conditions.html         redirection vers terms.html (ancienne adresse)
-├── en/  it/  es/  zh/      mêmes quatre pages par langue
+├── en/  pt/  es/  zh/      mêmes quatre pages par langue
 ├── .nojekyll
 └── assets/
     ├── leche.svg                    logo, tracé identique à celui du plugin
@@ -139,12 +139,6 @@ Prévisualisation locale : `python3 -m http.server` à la racine, puis
 ---
 
 ## Cohérence à maintenir
-
-**Les langues du site et celles de l'extension ne coïncident pas.** L'extension parle français,
-anglais, **portugais**, espagnol et chinois ; le site parle français, anglais, **italien**,
-espagnol et chinois. Deux options : ajouter l'italien à l'extension, ou remplacer l'italien par
-le portugais ici. En l'état, un visiteur italien lit le site dans sa langue puis découvre une
-extension qui ne la parle pas.
 
 **Les couleurs viennent du plugin** : `#230F1C`, `#F43F6E`, `#FFE2EA`, `#FDEFF3`, `#BC1948`.
 Si elles changent dans l'extension, elles changent ici — c'est le même produit.
