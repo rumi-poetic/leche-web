@@ -34,8 +34,8 @@ En haut de `build.py` :
 |---|---|
 | `LIEN_STORE` | **à remplacer** dès que la fiche est validée |
 | `DOMAINE` | à changer si tu prends un domaine personnalisé |
-| `EMAIL` | ✅ `lindabeji2@gmail.com` |
-| `EDITEUR` | ✅ Linda Beji, Chemin près du marguiller 24, 1273 Arzier-le-Muids |
+| `EMAIL` | ✅ `beaubebob@gmail.com` |
+| `EDITEUR` | ✅ Thomas Ledoux, Chemin près du marguiller 24, 1273 Arzier-le-Muids |
 | `DATE_EFFET` | ✅ 2026-09-02 — à remonter à chaque modification des textes légaux |
 | `PRIX` | ✅ 5 CHF — apparaît aussi dans `assets/og.jpg`, à régénérer si tu changes |
 
