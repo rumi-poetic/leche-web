@@ -101,7 +101,9 @@
       <p>Any change to this policy will be published on this page with a new update date. A change that widened data collection would also be announced inside the extension itself.</p>
 
       <h2>Contact</h2>
-      <p>Thomas Ledoux<br />Chemin près du marguiller 24<br />1273 Arzier-le-Muids, Suisse<br /><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <div class="contact" data-contact="editeur">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">Show contact details</button>
+      </div>
     </main>
 
     <footer class="pied">
@@ -133,19 +135,17 @@
           </div>
           <div>
             <h3>Publisher</h3>
-            <ul>
-              <li>Thomas Ledoux</li>
-              <li>Chemin près du marguiller 24</li>
-              <li>1273 Arzier-le-Muids</li>
-              <li><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></li>
-            </ul>
+            <div class="contact" data-contact="pied">
+              <button type="button" class="contact__btn contact__btn--texte" aria-expanded="false">Show contact details</button>
+            </div>
           </div>
         </div>
         <div class="pied__bas">
-          <span>© 2026 Thomas Ledoux</span>
+          <span>© 2026 Lèche</span>
           <span>No cookies, no trackers, no third-party requests on this site.</span>
         </div>
       </div>
     </footer>
+    <script src="../assets/contact.js"></script>
   </body>
 </html>

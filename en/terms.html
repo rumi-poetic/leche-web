@@ -46,7 +46,9 @@
       <p class="maj">Last updated : 2026-09-02</p>
 
       <h2>Publisher</h2>
-      <p>Thomas Ledoux<br />Chemin près du marguiller 24<br />1273 Arzier-le-Muids, Suisse<br /><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <div class="contact" data-contact="editeur">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">Show contact details</button>
+      </div>
 
       <h2>Subject</h2>
       <p>Lèche is an extension for the Chrome browser. It is distributed free of charge from the Chrome Web Store, and its full use is unlocked by a one-time purchase.</p>
@@ -65,7 +67,9 @@
       <p>You have <strong>14 days</strong> from the purchase to request a full refund, no questions asked.</p>
       <p>Write to the contact address, quoting the email address used at purchase. The refund is issued to the original payment method within 14 days.</p>
       <p>After that period, a refund is still possible if the extension does not work as described on this site. Write to us and we will sort it out.</p>
-      <p><a class="btn btn--small" href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <p class="contact" data-contact="email">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">Show the email</button>
+      </p>
 
       <h2>Behaviour and limits</h2>
       <p>Lèche scrolls pages and, if you enable it, moves to the next page. Automatic pagination detection works on the vast majority of shops, and learning mode covers the rest. We do not, however, guarantee that it works on any particular site: shops change their structure without notice.</p>
@@ -108,19 +112,17 @@
           </div>
           <div>
             <h3>Publisher</h3>
-            <ul>
-              <li>Thomas Ledoux</li>
-              <li>Chemin près du marguiller 24</li>
-              <li>1273 Arzier-le-Muids</li>
-              <li><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></li>
-            </ul>
+            <div class="contact" data-contact="pied">
+              <button type="button" class="contact__btn contact__btn--texte" aria-expanded="false">Show contact details</button>
+            </div>
           </div>
         </div>
         <div class="pied__bas">
-          <span>© 2026 Thomas Ledoux</span>
+          <span>© 2026 Lèche</span>
           <span>No cookies, no trackers, no third-party requests on this site.</span>
         </div>
       </div>
     </footer>
+    <script src="../assets/contact.js"></script>
   </body>
 </html>

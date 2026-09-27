@@ -46,7 +46,9 @@
       <p>可以用中文、法语、英语、葡萄牙语或西班牙语来信。我们会在两个工作日内回复。</p>
 
       <h2>写信给我们</h2>
-      <p><a class="btn" href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <div class="contact" data-contact="editeur">
+        <button type="button" class="contact__btn btn" aria-expanded="false">显示联系方式</button>
+      </div>
 
       <h2>这些信息能让我们更快回复</h2>
       <ul>
@@ -81,7 +83,9 @@
       </div>
 
       <h2>发布者</h2>
-      <p>Thomas Ledoux<br />Chemin près du marguiller 24<br />1273 Arzier-le-Muids, Suisse<br /><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <div class="contact" data-contact="editeur">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">显示联系方式</button>
+      </div>
     </main>
 
     <footer class="pied">
@@ -113,19 +117,17 @@
           </div>
           <div>
             <h3>发布者</h3>
-            <ul>
-              <li>Thomas Ledoux</li>
-              <li>Chemin près du marguiller 24</li>
-              <li>1273 Arzier-le-Muids</li>
-              <li><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></li>
-            </ul>
+            <div class="contact" data-contact="pied">
+              <button type="button" class="contact__btn contact__btn--texte" aria-expanded="false">显示联系方式</button>
+            </div>
           </div>
         </div>
         <div class="pied__bas">
-          <span>© 2026 Thomas Ledoux</span>
+          <span>© 2026 Lèche</span>
           <span>本站不使用 Cookie，不使用追踪器，不向第三方发出任何请求。</span>
         </div>
       </div>
     </footer>
+    <script src="../assets/contact.js"></script>
   </body>
 </html>

@@ -46,7 +46,9 @@
       <p class="maj">最后更新 : 2026-09-02</p>
 
       <h2>发布者</h2>
-      <p>Thomas Ledoux<br />Chemin près du marguiller 24<br />1273 Arzier-le-Muids, Suisse<br /><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <div class="contact" data-contact="editeur">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">显示联系方式</button>
+      </div>
 
       <h2>标的</h2>
       <p>Lèche 是一个 Chrome 浏览器扩展。它在 Chrome 应用商店免费分发，完整功能通过一次性购买解锁。</p>
@@ -65,7 +67,9 @@
       <p>自购买之日起 <strong>14 天</strong>内，你可以要求全额退款，无需说明理由。</p>
       <p>请写信至联系邮箱，并注明购买时使用的电子邮箱。退款将在 14 天内退回原支付方式。</p>
       <p>超过该期限后，若扩展未能按本站描述的方式工作，仍可退款。请写信给我们，我们会找到解决办法。</p>
-      <p><a class="btn btn--small" href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <p class="contact" data-contact="email">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">显示邮箱</button>
+      </p>
 
       <h2>功能与限制</h2>
       <p>Lèche 会滚动页面；若你启用该功能，还会翻到下一页。自动翻页识别在绝大多数网店上有效，其余的由学习模式覆盖。但我们不保证在某个特定站点上一定有效：网店会在不事先通知的情况下修改其结构。</p>
@@ -108,19 +112,17 @@
           </div>
           <div>
             <h3>发布者</h3>
-            <ul>
-              <li>Thomas Ledoux</li>
-              <li>Chemin près du marguiller 24</li>
-              <li>1273 Arzier-le-Muids</li>
-              <li><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></li>
-            </ul>
+            <div class="contact" data-contact="pied">
+              <button type="button" class="contact__btn contact__btn--texte" aria-expanded="false">显示联系方式</button>
+            </div>
           </div>
         </div>
         <div class="pied__bas">
-          <span>© 2026 Thomas Ledoux</span>
+          <span>© 2026 Lèche</span>
           <span>本站不使用 Cookie，不使用追踪器，不向第三方发出任何请求。</span>
         </div>
       </div>
     </footer>
+    <script src="../assets/contact.js"></script>
   </body>
 </html>

@@ -46,7 +46,9 @@
       <p class="maj">Última actualización : 2026-09-02</p>
 
       <h2>Editor</h2>
-      <p>Thomas Ledoux<br />Chemin près du marguiller 24<br />1273 Arzier-le-Muids, Suisse<br /><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <div class="contact" data-contact="editeur">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">Mostrar los datos de contacto</button>
+      </div>
 
       <h2>Objeto</h2>
       <p>Lèche es una extensión para el navegador Chrome. Se distribuye gratuitamente desde el Chrome Web Store, y su uso completo se desbloquea con una compra única.</p>
@@ -65,7 +67,9 @@
       <p>Dispones de <strong>14 días</strong> desde la compra para pedir el reembolso íntegro, sin tener que justificarte.</p>
       <p>Escribe a la dirección de contacto indicando el correo electrónico usado en la compra. El reembolso se efectúa en el medio de pago original en un plazo de 14 días.</p>
       <p>Pasado ese plazo, el reembolso sigue siendo posible si la extensión no funciona como se describe en este sitio. Escríbenos y encontraremos una solución.</p>
-      <p><a class="btn btn--small" href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></p>
+      <p class="contact" data-contact="email">
+        <button type="button" class="contact__btn btn btn--ghost btn--small" aria-expanded="false">Mostrar el correo</button>
+      </p>
 
       <h2>Funcionamiento y límites</h2>
       <p>Lèche desplaza las páginas y, si lo activas, pasa a la siguiente. La detección automática de la paginación funciona en la gran mayoría de las tiendas, y el modo aprendizaje cubre el resto. No garantizamos, sin embargo, el funcionamiento en un sitio concreto: las tiendas modifican su estructura sin previo aviso.</p>
@@ -108,19 +112,17 @@
           </div>
           <div>
             <h3>Editor</h3>
-            <ul>
-              <li>Thomas Ledoux</li>
-              <li>Chemin près du marguiller 24</li>
-              <li>1273 Arzier-le-Muids</li>
-              <li><a href="mailto:beaubebob@gmail.com">beaubebob@gmail.com</a></li>
-            </ul>
+            <div class="contact" data-contact="pied">
+              <button type="button" class="contact__btn contact__btn--texte" aria-expanded="false">Mostrar los datos de contacto</button>
+            </div>
           </div>
         </div>
         <div class="pied__bas">
-          <span>© 2026 Thomas Ledoux</span>
+          <span>© 2026 Lèche</span>
           <span>Sin cookies, sin rastreadores, sin peticiones a terceros en este sitio.</span>
         </div>
       </div>
     </footer>
+    <script src="../assets/contact.js"></script>
   </body>
 </html>
